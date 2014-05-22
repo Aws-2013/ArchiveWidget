@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ArchiveWidget</title>
+<link href="css/betterir.css" rel="stylesheet" media="screen"/>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.jQSlider.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/ArchiveWidget.js"></script>
+<script src="js/betterir.js"></script>
+</head>
+
+<ul id="archivedNewsLetters">
+  <li><a id="archive10" class="year" href="#" title="Close">2010</a>
+  	<ul id="archive10_list">
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_Mar_10.pdf" title="March, 2010" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">March 2010 (pdf)</a>
+        <div id="archiveOverImageMarch10"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/flags_icon.jpg" alt="March, 2010" /></div>
+      </li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_Feb_10.pdf" title="February, 2010" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">February 2010 (pdf)</a>
+        <div id="archiveOverImageFeb10"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/flame_icon.jpg" alt="February, 2010" /></div>
+      </li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_Jan_10.pdf" title="February, 2010" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">January 2010 (pdf)</a>
+        <div id="archiveOverImageJan10"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/tiger_icon.jpg" alt="January, 2010" /></div>
+      </li>
+    </ul>
+  </li>
+  <li><a id="archive09" class="year" href="#" title="Close">2009</a>
+    <ul id="archive09_list">
+      <li> <a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_Dec 09.pdf" title="December, 2009" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">December 2009 (pdf)</a>
+        <div id="archiveOverImageDec09"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/gift_icon.jpg" alt="December, 2009" /></div>
+      </li>
+      <li> <a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_Oct-Nov_09.pdf" title="Oct/Nov, 2009" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">Oct/Nov 2009 (pdf)</a>
+        <div id="archiveOverImageOctNov09"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/moving_fast_icon.jpg" alt="Oct/Nov, 2009" /></div>
+      </li>
+      <li> <a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_Aug-Sept 09.pdf" title="Aug/Sept, 2009" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">Aug/Sept 2009 (pdf)</a>
+        <div id="archiveOverImageAugSept09"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/extended_arm_icon.jpg" alt="Aug/Sept, 2009" /></div>
+      </li>
+      <li> <a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_June-July_09.pdf" title="June/July, 2009" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">June/July 2009 (pdf)</a>
+        <div id="archiveOverImageJuneJuly09"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/splash_icon.jpg" alt="JuneJuly, 2009" /></div>
+      </li>
+      <li> <a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_May_09.pdf" title="May, 2009" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">May 2009 (pdf)</a>
+        <div id="archiveOverImageMay09"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/thinker_icon.jpg" alt="May, 2009" /></div>
+      </li>
+      <li> <a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_Apr_09.pdf" title="April, 2009" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">April 2009 (pdf)</a>
+        <div id="archiveOverImageApr09"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/growing_money_icon.jpg" alt="April, 2009" /></div>
+      </li>
+      <li> <a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_Mar_09.pdf" title="March, 2009" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">March 2009 (pdf)</a>
+        <div id="archiveOverImageMar09"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/tulips_icon.jpg" alt="March, 2009" /></div>
+      </li>
+      <li> <a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_Feb_09.pdf" title="February, 2009" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">February 2009 (pdf)</a>
+        <div id="archiveOverImageFeb09"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/capitol_icon.jpg" alt="February, 2009" /></div>
+      </li>
+      <li> <a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_Jan 09.pdf" title="January, 2009" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">January 2009 (pdf)</a>
+        <div id="archiveOverImageJan09"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/clouds_icon.jpg" alt="January, 2009" /></div>
+      </li>
+    </ul>
+  </li>
+  <li><a id="archive08" class="year" href="#" title="Close">2008</a>
+    <ul id="archive08_list">
+      <li> <a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_Nov_08.pdf" title="November, 2008" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">November 2008 (pdf)</a>
+        <div id="archiveOverImageNov08"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/hand_in_water.jpg" alt="November, 2008" /></div>
+      </li>
+      <li> <a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_Oct_08.pdf" title="October, 2008" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">October 2008 (pdf)</a>
+        <div id="archiveOverImageOct08"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/lifePreserver.jpg" alt="October, 2008" /></div>
+      </li>
+      <li> <a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_Sept_08.pdf" title="September, 2008" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">September 2008 (pdf)</a>
+        <div id="archiveOverImageSept08"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/bull_icon2.jpg" alt="September, 2008" /></div>
+      </li>
+      <li> <a href="http://www.arcticwebsolutions.com/BetterIR/pdf/BetterIR_July_08.pdf" title="July, 2008" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">July 2008 (pdf)</a>
+        <div id="archiveOverImageJuly08"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/bull_icon.jpg" alt="July, 2008" /></div>
+      </li>
+      <li> <a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/BetterIR_NIRI 2008.pdf" title="June, 2008" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">June 2008 (pdf)</a>
+        <div id="archiveOverImageJune08"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/niri_icon.jpg" alt="June, 2008" /></div>
+      </li>
+      <li> <a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/DIRK Conference Special Feature.pdf" title="May, 2008" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">May 2008 (pdf)</a>
+        <div id="archiveOverImageMay08"><img src="http://www.arcticwebsolutions.com/portfolio/BetterIR/images/dirk_2.jpg" alt="May, 2008" /></div>
+      </li>
+    </ul>
+  </li>
+  <li><a id="archive07" class="year" href="#" title="Close">2007</a>
+    <ul id="archive07_list">
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200712.pdf" title="December 2007" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">December 2007 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200711.pdf" title="November 2007" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">November 2007 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200710.pdf" title="October 2007" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">October 2007 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200709.pdf" title="September 2007" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">September 2007 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200708.pdf" title="August 2007" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">August 2007 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200707.pdf" title="July 2007" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">July 2007 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200706.pdf" title="June 2007" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">June 2007 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200705.pdf" title="May 2007" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">May 2007 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200704.pdf" title="April 2007" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">April 2007 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200703.pdf" title="March 2007" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">March 2007 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200702.pdf" title="February 2007" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">February 2007 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200701.pdf" title="January 2007" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">January 2007 (pdf)</a></li>
+    </ul>
+  </li>
+  <li><a id="archive06" class="year" href="#" title="Close">2006</a>
+    <ul id="archive06_list">
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200612.pdf" title="December 2006" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">December 2006 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200611.pdf" title="November 2006" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">November 2006 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200610.pdf" title="October 2006" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">October 2006 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200609.pdf" title="September 2006" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">September 2006 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200608.pdf" title="August 2006" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">August 2006 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200607.pdf" title="July 2006" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">July 2006 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200606.pdf" title="June 2006" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">June 2006 (pdf)</a></li>
+      <li><a href="http://www.arcticwebsolutions.com/BetterIR/pdf/archive/CB OnTarget Newsletter 200605.pdf" title="May 2006" rel="lyteframe" rev="width: 950px; height: 600px; scrolling: no">May 2006 (pdf)</a></li>
+    </ul>
+  </li>
+</ul>
+</body>
+</html>
