@@ -9,4 +9,4 @@ ArchiveWidget is a jQuery plugin that controls state of a tree navigation. A dem
 > This patch also fixes an issue with animating padding of child elements
 > within the parent (slider)
 
-[ArchiveWidget Demo]:http://arcticwebsolutions.com/portfolio/BetterIR/
+[ArchiveWidget Demo]:http://www.arcticwebsolutions.com/PortFdqoiewpoiQMopfladAPKdfderzmbiJWQDlgfdgjk/portfolio/BetterIR/
